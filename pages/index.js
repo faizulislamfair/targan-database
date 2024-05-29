@@ -243,7 +243,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart1' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -307,7 +307,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart2' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -371,7 +371,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart3' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -433,7 +433,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart4' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -495,7 +495,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart5' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -557,7 +557,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart6' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -619,7 +619,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart7' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -682,7 +682,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart8' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -745,7 +745,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart9' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -808,7 +808,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart10' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -875,7 +875,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart11' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -938,7 +938,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600 font-semibold'>
-                      <Link href='/' target='_blank'>
+                      <Link href='/chart12' target='_blank'>
                         Click here
                       </Link>
                     </td>
