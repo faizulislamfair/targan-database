@@ -119,7 +119,7 @@ export default function Home() {
 
 
           filteredData.map((item, index) => (
-            <div key={item?.id} className='text-black m-5 p-5 rounded-md'>
+            <div key={index + 1} className='text-black m-5 p-5 rounded-md'>
 
 
               <div className="border-4 border-[#E1AEAC] flex flex-col p-5 mb-10">
