@@ -192,39 +192,50 @@ export default function Home() {
                   Chart 1. Expression Signature of ASD Risk Gene in Whole Cerebral Cortex
                 </div>
 
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.WholeCortex_ASD_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.WholeCortex_ASD_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.WholeCortex_ASD_Log2FC > 0 && <>Upregulation</>
                       }
@@ -232,16 +243,26 @@ export default function Home() {
                         item?.WholeCortex_ASD_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+
+
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          49
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          54
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+
+
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart1' target='_blank'>
                         Click here
                       </Link>
@@ -256,39 +277,47 @@ export default function Home() {
                   Chart 2. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)9
                 </div>
 
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA9_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA9_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA9_Log2FC > 0 && <>Upregulation</>
                       }
@@ -296,16 +325,25 @@ export default function Home() {
                         item?.ASD_BA9_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          41
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          45
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+
+
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart2' target='_blank'>
                         Click here
                       </Link>
@@ -320,39 +358,45 @@ export default function Home() {
                   Chart 3. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)44/45
                 </div>
 
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA44_45_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA44_45_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA44_45_Log2FC > 0 && <>Upregulation</>
                       }
@@ -360,16 +404,22 @@ export default function Home() {
                         item?.ASD_BA44_45_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          27
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          19
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart3' target='_blank'>
                         Click here
                       </Link>
@@ -382,39 +432,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 4. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)24
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA24_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA24_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA24_Log2FC > 0 && <>Upregulation</>
                       }
@@ -422,16 +478,22 @@ export default function Home() {
                         item?.ASD_BA24_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          30
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          18
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart4' target='_blank'>
                         Click here
                       </Link>
@@ -444,39 +506,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 5. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)4/6
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA4_6_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA4_6_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA4_6_Log2FC > 0 && <>Upregulation</>
                       }
@@ -484,16 +552,22 @@ export default function Home() {
                         item?.ASD_BA4_6_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          28
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          27
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart5' target='_blank'>
                         Click here
                       </Link>
@@ -506,39 +580,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 6. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)38
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA38_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA38_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA38_Log2FC > 0 && <>Upregulation</>
                       }
@@ -546,16 +626,22 @@ export default function Home() {
                         item?.ASD_BA38_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          26
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          17
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart6' target='_blank'>
                         Click here
                       </Link>
@@ -568,39 +654,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 7. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)20/37
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA20_37_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA20_37_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA20_37_Log2FC > 0 && <>Upregulation</>
                       }
@@ -608,16 +700,22 @@ export default function Home() {
                         item?.ASD_BA20_37_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          22
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          26
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart7' target='_blank'>
                         Click here
                       </Link>
@@ -631,39 +729,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 8. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)41/42/22
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA41_42_22_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA41_42_22_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA41_42_22_Log2FC > 0 && <>Upregulation</>
                       }
@@ -671,16 +775,22 @@ export default function Home() {
                         item?.ASD_BA41_42_22_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          40
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          33
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart8' target='_blank'>
                         Click here
                       </Link>
@@ -694,39 +804,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 9. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)3/1/2/5
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA3_1_2_5_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA3_1_2_5_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA3_1_2_5_Log2FC > 0 && <>Upregulation</>
                       }
@@ -734,16 +850,22 @@ export default function Home() {
                         item?.ASD_BA3_1_2_5_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          30
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          23
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart9' target='_blank'>
                         Click here
                       </Link>
@@ -757,39 +879,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 10. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)7
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA7_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA7_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA7_Log2FC > 0 && <>Upregulation</>
                       }
@@ -797,16 +925,22 @@ export default function Home() {
                         item?.ASD_BA7_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          35
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          29
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart10' target='_blank'>
                         Click here
                       </Link>
@@ -820,39 +954,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 11. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)39/40
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA39_40_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA39_40_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA39_40_Log2FC > 0 && <>Upregulation</>
                       }
@@ -860,20 +1000,26 @@ export default function Home() {
                         item?.ASD_BA39_40_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       Postmortem
                       Cerebral
                       Cortex
                     </td>
-                    <td className='p-5 border border-gray-600 font-semibold'>
-                      26
-                      17
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          31
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          32
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600'>
+                    <td className='p-5 border-2 border-gray-600'>
                       <Link href='/chart11' target='_blank'>
                         Click here
                       </Link>
@@ -887,39 +1033,45 @@ export default function Home() {
                 <div className="text-[#1C47F2] font-bold pb-3">
                   Chart 12. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)17
                 </div>
-                <table className='bg-[#FAE5D3] p-10 text-center border border-gray-600 rounded-md mb-10'>
+                <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
                   <tr className='p-5'>
-                    <th className='p-5 border border-gray-600'>ASD Risk Gene</th>
-                    <th className='p-5 border border-gray-600'>SFARI Gene Score</th>
-                    <th className='p-5 border border-gray-600'>Log<sub>2</sub>FC</th>
-                    <th className='p-5 border border-gray-600'>FDR</th>
-                    <th className='p-5 border border-gray-600'>Expression Pattern</th>
-                    <th className='p-5 border border-gray-600'>Comparison Group</th>
-                    <th className='p-5 border border-gray-600'>Comparing Organ Type</th>
-                    <th className='p-5 border border-gray-600'>Organ</th>
-                    <th className='p-5 border border-gray-600'>
-                      <tr>
-                        <th colSpan="2">Number of Samples</th>
-                      </tr>
-                      <tr className="border-t-2 border-black">
-                        <th className="border-r-2 border-black">ASD</th>
-                        <th>Control</th>
-                      </tr>
-                    </th>
-                    <th className='p-5 border border-gray-600'>Experiment Details</th>
+                    <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
+                    <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
+                    <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
+                    <th className='p-5 border-2 border-gray-600'>FDR</th>
+                    <th className='p-5 border-2 border-gray-600'>Expression Pattern</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparison Group</th>
+                    <th className='p-5 border-2 border-gray-600'>Comparing Organ Type</th>
+                    <th className='p-5 border-2 border-gray-600'>Organ</th>
+                    <div class="flex flex-col">
+                      <div class="flex-1 flex">
+                        <div class="p-5 border-b-2 border-gray-600 flex items-center justify-center" colspan="2">
+                          <b>Number of Samples</b>
+                        </div>
+                      </div>
+                      <div class="flex-1 flex">
+                        <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
+                          <b>ASD</b>
+                        </div>
+                        <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
+                          <b>Control</b>
+                        </div>
+                      </div>
+                    </div>
+                    <th className='p-5 border-2 border-gray-600'>Experiment Details</th>
                   </tr>
                   <tr className='p-5 font-semibold bg-[#E6E0EC]'>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>{item?.Gene_Symbol}</td>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.SFARI_Gene_score}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA17_Log2FC}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {item?.ASD_BA17_FDR}
                     </td>
-                    <td className='p-5 border border-gray-600 text-[#FA0304] font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 text-[#FA0304] font-semibold'>
                       {
                         item?.ASD_BA17_Log2FC > 0 && <>Upregulation</>
                       }
@@ -927,16 +1079,22 @@ export default function Home() {
                         item?.ASD_BA17_Log2FC < 0 && <>Downregulation</>
                       }
                     </td>
-                    <td className='p-5 border border-gray-600 font-semibold'>Idiopathic ASD vs Control</td>
-                    <td className='p-5 border border-gray-600 font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 font-semibold'>Idiopathic ASD vs Control</td>
+                    <td className='p-5 border-2 border-gray-600 font-semibold'>
                       BA38
                     </td>
-                    <td className='p-5 border border-gray-600 font-semibold'>Postmortem Brain Tissue</td>
-                    <td className='p-5 border border-gray-600 font-semibold'>
-                      26
-                      17
+                    <td className='p-5 border-2 border-gray-600 font-semibold'>Postmortem Brain Tissue</td>
+                    <td className="p-5 border-2 border-gray-600 relative">
+                      <div className="absolute inset-0 flex">
+                        <div className="w-1/2 border-r border-gray-600 flex items-center justify-center">
+                          28
+                        </div>
+                        <div className="w-1/2 border-l border-gray-600 flex items-center justify-center">
+                          28
+                        </div>
+                      </div>
                     </td>
-                    <td className='p-5 border border-gray-600 font-semibold'>
+                    <td className='p-5 border-2 border-gray-600 font-semibold'>
                       <Link href='/chart12' target='_blank'>
                         Click here
                       </Link>
