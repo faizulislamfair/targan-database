@@ -5,7 +5,7 @@ const chart7 = () => {
         <div className='p-5'>
 
             <div className='text-[#1C47F2] font-bold text-[20px]'>
-                Chart 2. Experiment Summary
+                Chart 7. Experiment Summary
             </div>
 
             <div className="bg-[#F2DCDB] p-3 border-2 border-black mt-3">
@@ -16,15 +16,15 @@ const chart7 = () => {
                 Idiopathic ASD Individuals vs Neurotypical Controls <br />
                 <b>Organ: </b> <br />
                 Postmortem Cerebral Cortex <br />
-                <b>Comparing Organ Type: </b> <br />
-                Brodmann Area 9 (Frontal Lobe) <br />
+                <b>Comparing Cortical Region: </b> <br />
+                Brodmann Area 20/37 (Temporal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
-                i. Brodmann Area 9 (Idiopathic ASD): 41
-                ii. Brodmann Area 9 (Control): 45
+                i. Brodmann Area 20/37 (Idiopathic ASD): 22 <br />
+                ii. Brodmann Area 20/37 (Control): 26 <br />
 
                 <b>Sample Characteristics: </b> <br />
-                i. ASD Cortex: Brodmann Area 9 of Frontal Lobe
-                ii. Control Cortex: Brodmann Area 9 of Frontal Lobe
+                i. ASD Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
+                ii. Control Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

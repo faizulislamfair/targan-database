@@ -16,7 +16,7 @@ const chart6 = () => {
                 Idiopathic ASD Individuals vs Neurotypical Controls <br />
                 <b>Organ: </b> <br />
                 Postmortem Cerebral Cortex <br />
-                <b>Comparing Organ Type: </b> <br />
+                <b>Comparing Cortical Region: </b> <br />
                 Brodmann Area 9 (Frontal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. Brodmann Area 38 (Idiopathic ASD): 26 <br />
