@@ -114,9 +114,8 @@ export default function Home() {
 
 
       <div className='grid grid-cols-1 grid-flow-row gap-4 place-content-center mt-10 pt-10'>
+
         {searchPressed && filteredData.length > 0 && (
-
-
 
           filteredData.map((item, index) => (
             <div key={index + 1} className='text-black m-5 p-5 rounded-md'>
@@ -181,7 +180,7 @@ export default function Home() {
                 }
 
                 <div className='flex flex-row'>
-                  <b>Reference</b>: <p className="font-semibold"> &nbsp; SFARI Gene Database (https://gene.sfari.org/database/human-gene/) </p>
+                  <b>Reference</b>: <p className="font-semibold"> &nbsp; SFARI Gene Database <Link href="https://gene.sfari.org/database/human-gene/" target='_blank'>(https://gene.sfari.org/database/human-gene/) </Link> </p>
                 </div>
 
 
