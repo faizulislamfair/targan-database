@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="grid place-content-center">
@@ -36,8 +38,16 @@ export default function Home() {
                 type="text"
                 placeholder="ENSEMBL ID or Gene Symbol"
               />
-              <div className="mt-2">
-                <img className="h-7 lg:h-14 border-2 border-gray-600" src="/search.png" alt="Search Icon" />
+              <div className="mt-5">
+                <Image
+                  className="
+                  border-2 
+                border-gray-600"
+                  src="/search.png"
+                  alt="Search Icon"
+                  width={50}
+                  height={220}
+                />
               </div>
             </div>
           </div>
