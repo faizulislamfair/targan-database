@@ -19,13 +19,13 @@ const chart12 = () => {
                 <b>Comparing Cortical Region: </b> <br />
                 Brodmann Area 17 (Occipital Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
-                i. Brodmann Area 17 of (Idiopathic ASD): 28 <br />
-                ii. Brodmann Area 17 of (Control): 28 <br />
+                i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 17 of (Idiopathic ASD): 28 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 17 of (Control): 28 <br />
 
 
                 <b>Sample Characteristics: </b> <br />
-                i. Idiopathic ASD Cortex : Brodmann Area 17 of Occipital Lobe <br />
-                ii. Neurotypical Control : Brodmann Area 17 of Occipital Lobe <br />
+                i. &nbsp; &nbsp; &nbsp; &nbsp; Idiopathic ASD Cortex : Brodmann Area 17 of Occipital Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp; Neurotypical Control : Brodmann Area 17 of Occipital Lobe <br />
 
 
                 <b>Data Type: </b> <br />

@@ -19,12 +19,12 @@ const chart7 = () => {
                 <b>Comparing Cortical Region: </b> <br />
                 Brodmann Area 20/37 (Temporal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
-                i. Brodmann Area 20/37 (Idiopathic ASD): 22 <br />
-                ii. Brodmann Area 20/37 (Control): 26 <br />
+                i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 20/37 (Idiopathic ASD): 22 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 20/37 (Control): 26 <br />
 
                 <b>Sample Characteristics: </b> <br />
-                i. ASD Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
-                ii. Control Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
+                i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Brodmann Area 20/37 of Temporal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />
