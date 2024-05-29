@@ -1,6 +1,11 @@
 import Image from "next/image";
+import { data } from '@/public/data';
+
 
 export default function Home() {
+
+
+
   return (
     <div className="grid place-content-center">
       <div className="grid place-content-center mt-20 pt-5">
@@ -46,7 +51,7 @@ export default function Home() {
                   src="/search.png"
                   alt="Search Icon"
                   width={50}
-                  height={220}
+                  height={50}
                 />
               </div>
             </div>

@@ -201,7 +201,7 @@ export const data = [
         ASD_BA17_FDR: 0.00602,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000224389",
@@ -303,7 +303,7 @@ export const data = [
         ASD_BA17_FDR: 0.00534,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166313",
@@ -473,7 +473,7 @@ export const data = [
         ASD_BA17_FDR: 1.93E-05,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000151150",
@@ -949,7 +949,7 @@ export const data = [
         ASD_BA17_FDR: 0.000295,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147180",
@@ -1187,7 +1187,7 @@ export const data = [
         ASD_BA17_FDR: 0.0609,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000169439",
@@ -1663,7 +1663,7 @@ export const data = [
         ASD_BA17_FDR: 0.0351,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000163618",
@@ -1731,7 +1731,7 @@ export const data = [
         ASD_BA17_FDR: 0.0208,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000074590",
@@ -1833,7 +1833,7 @@ export const data = [
         ASD_BA17_FDR: 0.0316,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000070756",
@@ -1867,7 +1867,7 @@ export const data = [
         ASD_BA17_FDR: 0.146,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000047188",
@@ -2003,7 +2003,7 @@ export const data = [
         ASD_BA17_FDR: 0.0505,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000072518",
@@ -2071,7 +2071,7 @@ export const data = [
         ASD_BA17_FDR: 2.99E-05,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166963",
@@ -2173,7 +2173,7 @@ export const data = [
         ASD_BA17_FDR: 0.02,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000169813",
@@ -2275,7 +2275,7 @@ export const data = [
         ASD_BA17_FDR: 0.00592,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147403",
@@ -2683,7 +2683,7 @@ export const data = [
         ASD_BA17_FDR: 0.000688,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000070961",
@@ -2717,7 +2717,7 @@ export const data = [
         ASD_BA17_FDR: 0.0556,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000180914",
@@ -2989,7 +2989,7 @@ export const data = [
         ASD_BA17_FDR: 0.00558,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000197102",
@@ -3057,7 +3057,7 @@ export const data = [
         ASD_BA17_FDR: 0.0127,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000158445",
@@ -3091,7 +3091,7 @@ export const data = [
         ASD_BA17_FDR: 0.00665,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000153291",
@@ -3159,7 +3159,7 @@ export const data = [
         ASD_BA17_FDR: 0.37,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000077097",
@@ -3329,7 +3329,7 @@ export const data = [
         ASD_BA17_FDR: 0.16,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000170471",
@@ -3431,7 +3431,7 @@ export const data = [
         ASD_BA17_FDR: 8.38E-06,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000175497",
@@ -3499,7 +3499,7 @@ export const data = [
         ASD_BA17_FDR: 0.00364,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000104388",
@@ -3567,7 +3567,7 @@ export const data = [
         ASD_BA17_FDR: 0.164,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000105287",
@@ -3703,7 +3703,7 @@ export const data = [
         ASD_BA17_FDR: 0.176,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000167971",
@@ -3873,7 +3873,7 @@ export const data = [
         ASD_BA17_FDR: 0.0118,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000161203",
@@ -3975,7 +3975,7 @@ export const data = [
         ASD_BA17_FDR: 0.0538,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166862",
@@ -4043,7 +4043,7 @@ export const data = [
         ASD_BA17_FDR: 0.0177,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000135317",
@@ -4077,7 +4077,7 @@ export const data = [
         ASD_BA17_FDR: 0.0174,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000183454",
@@ -4145,7 +4145,7 @@ export const data = [
         ASD_BA17_FDR: 0.113,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000177565",
@@ -4213,7 +4213,7 @@ export const data = [
         ASD_BA17_FDR: 0.152,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000144331",
@@ -4349,7 +4349,7 @@ export const data = [
         ASD_BA17_FDR: 0.0258,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000136813",
@@ -4417,7 +4417,7 @@ export const data = [
         ASD_BA17_FDR: 0.188,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000113657",
@@ -4485,7 +4485,7 @@ export const data = [
         ASD_BA17_FDR: 0.357,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000178951",
@@ -4519,7 +4519,7 @@ export const data = [
         ASD_BA17_FDR: 0.00526,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000198793",
@@ -4553,7 +4553,7 @@ export const data = [
         ASD_BA17_FDR: 0.157,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000078328",
@@ -4655,7 +4655,7 @@ export const data = [
         ASD_BA17_FDR: 0.19,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000131711",
@@ -4721,9 +4721,9 @@ export const data = [
         ASD_BA39_40_FDR: 0.259,
         ASD_BA17_Log2FC: 0.0978,
         ASD_BA17_FDR: 0.37,
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000170579",
@@ -5267,7 +5267,7 @@ export const data = [
         ASD_BA17_FDR: 0.0132,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000152270",
@@ -5573,7 +5573,7 @@ export const data = [
         ASD_BA17_FDR: 0.31,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000072682",
@@ -5641,7 +5641,7 @@ export const data = [
         ASD_BA17_FDR: 0.181,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000132326",
@@ -5777,7 +5777,7 @@ export const data = [
         ASD_BA17_FDR: 0.0944,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000188191",
@@ -5845,7 +5845,7 @@ export const data = [
         ASD_BA17_FDR: 0.34,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000046651",
@@ -6049,7 +6049,7 @@ export const data = [
         ASD_BA17_FDR: 0.141,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000259207",
@@ -6185,7 +6185,7 @@ export const data = [
         ASD_BA17_FDR: 0.0152,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000153187",
@@ -6219,7 +6219,7 @@ export const data = [
         ASD_BA17_FDR: 0.29,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000171766",
@@ -6251,9 +6251,9 @@ export const data = [
         ASD_BA39_40_FDR: 0.0895,
         ASD_BA17_Log2FC: 0.286,
         ASD_BA17_FDR: 0.0146,
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000113595",
@@ -6321,7 +6321,7 @@ export const data = [
         ASD_BA17_FDR: 0.0698,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000134287",
@@ -6389,7 +6389,7 @@ export const data = [
         ASD_BA17_FDR: 0.442,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000067715",
@@ -6423,7 +6423,7 @@ export const data = [
         ASD_BA17_FDR: 0.225,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000061676",
@@ -6491,7 +6491,7 @@ export const data = [
         ASD_BA17_FDR: 0.297,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000102466",
@@ -6933,7 +6933,7 @@ export const data = [
         ASD_BA17_FDR: 0.0842,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000113163",
@@ -6967,7 +6967,7 @@ export const data = [
         ASD_BA17_FDR: 0.206,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130811",
@@ -7103,7 +7103,7 @@ export const data = [
         ASD_BA17_FDR: 0.0106,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000168280",
@@ -7137,7 +7137,7 @@ export const data = [
         ASD_BA17_FDR: 0.00412,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000126945",
@@ -7409,7 +7409,7 @@ export const data = [
         ASD_BA17_FDR: 0.000532,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000129682",
@@ -7441,9 +7441,9 @@ export const data = [
         ASD_BA39_40_FDR: 0.44,
         ASD_BA17_Log2FC: -0.303,
         ASD_BA17_FDR: 0.0763,
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000079387",
@@ -7613,7 +7613,7 @@ export const data = [
         ASD_BA17_FDR: 0.259,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165650",
@@ -7647,7 +7647,7 @@ export const data = [
         ASD_BA17_FDR: 0.00474,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000139618",
@@ -7749,7 +7749,7 @@ export const data = [
         ASD_BA17_FDR: 0.581,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000102081",
@@ -7783,7 +7783,7 @@ export const data = [
         ASD_BA17_FDR: 0.0956,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000114062",
@@ -7817,7 +7817,7 @@ export const data = [
         ASD_BA17_FDR: 0.709,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000136169",
@@ -8021,7 +8021,7 @@ export const data = [
         ASD_BA17_FDR: 0.107,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000111816",
@@ -8531,7 +8531,7 @@ export const data = [
         ASD_BA17_FDR: 0.115,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000105409",
@@ -8565,7 +8565,7 @@ export const data = [
         ASD_BA17_FDR: 0.018,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000174442",
@@ -8735,7 +8735,7 @@ export const data = [
         ASD_BA17_FDR: 0.0223,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000172260",
@@ -8871,7 +8871,7 @@ export const data = [
         ASD_BA17_FDR: 0.861,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130226",
@@ -8973,7 +8973,7 @@ export const data = [
         ASD_BA17_FDR: 0.218,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000137713",
@@ -9075,7 +9075,7 @@ export const data = [
         ASD_BA17_FDR: 0.143,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000188419",
@@ -9483,7 +9483,7 @@ export const data = [
         ASD_BA17_FDR: 0.00723,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000188785",
@@ -9551,7 +9551,7 @@ export const data = [
         ASD_BA17_FDR: 0.069,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000079482",
@@ -9789,7 +9789,7 @@ export const data = [
         ASD_BA17_FDR: 0.0708,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000197977",
@@ -10333,7 +10333,7 @@ export const data = [
         ASD_BA17_FDR: 0.127,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000139726",
@@ -10605,7 +10605,7 @@ export const data = [
         ASD_BA17_FDR: 0.343,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130035",
@@ -10673,7 +10673,7 @@ export const data = [
         ASD_BA17_FDR: 0.0753,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166167",
@@ -10775,7 +10775,7 @@ export const data = [
         ASD_BA17_FDR: 0.998,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196338",
@@ -10843,7 +10843,7 @@ export const data = [
         ASD_BA17_FDR: 0.48,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196220",
@@ -10911,7 +10911,7 @@ export const data = [
         ASD_BA17_FDR: 0.00663,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000197283",
@@ -10945,7 +10945,7 @@ export const data = [
         ASD_BA17_FDR: 0.852,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000185008",
@@ -11183,7 +11183,7 @@ export const data = [
         ASD_BA17_FDR: 0.842,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000127603",
@@ -11217,7 +11217,7 @@ export const data = [
         ASD_BA17_FDR: 0.383,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000135439",
@@ -11285,7 +11285,7 @@ export const data = [
         ASD_BA17_FDR: 0.432,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000116754",
@@ -11353,7 +11353,7 @@ export const data = [
         ASD_BA17_FDR: 0.0119,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000172943",
@@ -11387,7 +11387,7 @@ export const data = [
         ASD_BA17_FDR: 0.499,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000110107",
@@ -11489,7 +11489,7 @@ export const data = [
         ASD_BA17_FDR: 0.0292,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000183856",
@@ -11557,7 +11557,7 @@ export const data = [
         ASD_BA17_FDR: 0.302,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000172465",
@@ -11591,7 +11591,7 @@ export const data = [
         ASD_BA17_FDR: 0.342,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000118007",
@@ -11625,7 +11625,7 @@ export const data = [
         ASD_BA17_FDR: 0.571,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000133958",
@@ -11693,7 +11693,7 @@ export const data = [
         ASD_BA17_FDR: 0.992,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000144619",
@@ -11999,7 +11999,7 @@ export const data = [
         ASD_BA17_FDR: 0.000682,
         Genetic_Category: "Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000063244",
@@ -12271,7 +12271,7 @@ export const data = [
         ASD_BA17_FDR: 0.0334,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165355",
@@ -12543,7 +12543,7 @@ export const data = [
         ASD_BA17_FDR: 0.0369,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000127955",
@@ -12577,7 +12577,7 @@ export const data = [
         ASD_BA17_FDR: 0.541,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000140015",
@@ -12713,7 +12713,7 @@ export const data = [
         ASD_BA17_FDR: 0.158,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000145348",
@@ -12747,7 +12747,7 @@ export const data = [
         ASD_BA17_FDR: 0.148,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000115556",
@@ -12815,7 +12815,7 @@ export const data = [
         ASD_BA17_FDR: 0.366,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000249158",
@@ -12883,7 +12883,7 @@ export const data = [
         ASD_BA17_FDR: 0.204,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000185800",
@@ -13053,7 +13053,7 @@ export const data = [
         ASD_BA17_FDR: 0.993,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000108510",
@@ -13087,7 +13087,7 @@ export const data = [
         ASD_BA17_FDR: 0.424,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000048740",
@@ -13121,7 +13121,7 @@ export const data = [
         ASD_BA17_FDR: 0.53,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000121879",
@@ -13257,7 +13257,7 @@ export const data = [
         ASD_BA17_FDR: 0.442,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000183117",
@@ -13563,7 +13563,7 @@ export const data = [
         ASD_BA17_FDR: 0.102,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000099308",
@@ -13835,7 +13835,7 @@ export const data = [
         ASD_BA17_FDR: 0.73,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000083454",
@@ -14107,7 +14107,7 @@ export const data = [
         ASD_BA17_FDR: 0.000295,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166206",
@@ -14481,7 +14481,7 @@ export const data = [
         ASD_BA17_FDR: 0.976,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000087206",
@@ -14889,7 +14889,7 @@ export const data = [
         ASD_BA17_FDR: 0.0637,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000143569",
@@ -15093,7 +15093,7 @@ export const data = [
         ASD_BA17_FDR: 0.458,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000124313",
@@ -15127,7 +15127,7 @@ export const data = [
         ASD_BA17_FDR: 0.831,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147050",
@@ -15263,7 +15263,7 @@ export const data = [
         ASD_BA17_FDR: 0.0257,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000198719",
@@ -15297,7 +15297,7 @@ export const data = [
         ASD_BA17_FDR: 0.979,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000021574",
@@ -15365,7 +15365,7 @@ export const data = [
         ASD_BA17_FDR: 0.18,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165699",
@@ -15399,7 +15399,7 @@ export const data = [
         ASD_BA17_FDR: 0.197,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000128512",
@@ -15467,7 +15467,7 @@ export const data = [
         ASD_BA17_FDR: 0.304,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000157388",
@@ -15705,7 +15705,7 @@ export const data = [
         ASD_BA17_FDR: 0.169,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000144290",
@@ -16249,7 +16249,7 @@ export const data = [
         ASD_BA17_FDR: 0.244,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000101266",
@@ -16283,7 +16283,7 @@ export const data = [
         ASD_BA17_FDR: 0.955,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000157445",
@@ -16419,7 +16419,7 @@ export const data = [
         ASD_BA17_FDR: 0.207,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000178665",
@@ -16623,7 +16623,7 @@ export const data = [
         ASD_BA17_FDR: 0.762,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000104738",
@@ -16793,7 +16793,7 @@ export const data = [
         ASD_BA17_FDR: 0.221,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000204406",
@@ -16827,7 +16827,7 @@ export const data = [
         ASD_BA17_FDR: 0.758,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000173064",
@@ -16963,7 +16963,7 @@ export const data = [
         ASD_BA17_FDR: 0.179,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000154678",
@@ -17065,7 +17065,7 @@ export const data = [
         ASD_BA17_FDR: 0.298,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000128573",
@@ -17133,7 +17133,7 @@ export const data = [
         ASD_BA17_FDR: 0.588,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000145113",
@@ -17439,7 +17439,7 @@ export const data = [
         ASD_BA17_FDR: 0.297,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000066279",
@@ -17609,7 +17609,7 @@ export const data = [
         ASD_BA17_FDR: 0.0964,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000154229",
@@ -17745,7 +17745,7 @@ export const data = [
         ASD_BA17_FDR: 0.493,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000146247",
@@ -17779,7 +17779,7 @@ export const data = [
         ASD_BA17_FDR: 0.972,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000197157",
@@ -17847,7 +17847,7 @@ export const data = [
         ASD_BA17_FDR: 0.653,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000197724",
@@ -17949,7 +17949,7 @@ export const data = [
         ASD_BA17_FDR: 0.0724,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000133019",
@@ -18119,7 +18119,7 @@ export const data = [
         ASD_BA17_FDR: 0.69,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000129159",
@@ -18221,7 +18221,7 @@ export const data = [
         ASD_BA17_FDR: 0.0431,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000140538",
@@ -18323,7 +18323,7 @@ export const data = [
         ASD_BA17_FDR: 0.446,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000118482",
@@ -18493,7 +18493,7 @@ export const data = [
         ASD_BA17_FDR: 0.356,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000070371",
@@ -18629,7 +18629,7 @@ export const data = [
         ASD_BA17_FDR: 0.0715,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000186318",
@@ -18867,7 +18867,7 @@ export const data = [
         ASD_BA17_FDR: 0.267,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000214063",
@@ -19069,9 +19069,9 @@ export const data = [
         ASD_BA39_40_FDR: 0.49,
         ASD_BA17_Log2FC: -0.0808,
         ASD_BA17_FDR: 0.0711,
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000170485",
@@ -19173,7 +19173,7 @@ export const data = [
         ASD_BA17_FDR: 0.988,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000075043",
@@ -19241,7 +19241,7 @@ export const data = [
         ASD_BA17_FDR: 0.986,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000108953",
@@ -19479,7 +19479,7 @@ export const data = [
         ASD_BA17_FDR: 0.997,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000103528",
@@ -19615,7 +19615,7 @@ export const data = [
         ASD_BA17_FDR: 0.945,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196419",
@@ -19717,7 +19717,7 @@ export const data = [
         ASD_BA17_FDR: 0.393,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000167216",
@@ -19887,7 +19887,7 @@ export const data = [
         ASD_BA17_FDR: 0.187,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000173120",
@@ -19989,7 +19989,7 @@ export const data = [
         ASD_BA17_FDR: 0.468,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000040731",
@@ -20261,7 +20261,7 @@ export const data = [
         ASD_BA17_FDR: 0.0375,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000146938",
@@ -20397,7 +20397,7 @@ export const data = [
         ASD_BA17_FDR: 0.648,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000135829",
@@ -20431,7 +20431,7 @@ export const data = [
         ASD_BA17_FDR: 0.924,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000134184",
@@ -20533,7 +20533,7 @@ export const data = [
         ASD_BA17_FDR: 0.736,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000106689",
@@ -20635,7 +20635,7 @@ export const data = [
         ASD_BA17_FDR: 0.57,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000183044",
@@ -20703,7 +20703,7 @@ export const data = [
         ASD_BA17_FDR: 0.377,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000206190",
@@ -20771,7 +20771,7 @@ export const data = [
         ASD_BA17_FDR: 0.4,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000058673",
@@ -20975,7 +20975,7 @@ export const data = [
         ASD_BA17_FDR: 0.633,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000036257",
@@ -21043,7 +21043,7 @@ export const data = [
         ASD_BA17_FDR: 0.0222,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000285077",
@@ -21451,7 +21451,7 @@ export const data = [
         ASD_BA17_FDR: 0.974,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000069248",
@@ -21519,7 +21519,7 @@ export const data = [
         ASD_BA17_FDR: 0.0204,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000123552",
@@ -21587,7 +21587,7 @@ export const data = [
         ASD_BA17_FDR: 0.0231,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000121297",
@@ -21757,7 +21757,7 @@ export const data = [
         ASD_BA17_FDR: 0.496,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000138031",
@@ -21893,7 +21893,7 @@ export const data = [
         ASD_BA17_FDR: 0.0647,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000050344",
@@ -21961,7 +21961,7 @@ export const data = [
         ASD_BA17_FDR: 0.126,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000073756",
@@ -22029,7 +22029,7 @@ export const data = [
         ASD_BA17_FDR: 0.639,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000121775",
@@ -22437,7 +22437,7 @@ export const data = [
         ASD_BA17_FDR: 0.787,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000004866",
@@ -22505,7 +22505,7 @@ export const data = [
         ASD_BA17_FDR: 0.0114,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000264424",
@@ -22743,7 +22743,7 @@ export const data = [
         ASD_BA17_FDR: 0.963,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000104967",
@@ -22777,7 +22777,7 @@ export const data = [
         ASD_BA17_FDR: 0.412,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000169895",
@@ -22913,7 +22913,7 @@ export const data = [
         ASD_BA17_FDR: 0.464,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000013306",
@@ -22981,7 +22981,7 @@ export const data = [
         ASD_BA17_FDR: 0.856,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000100485",
@@ -23049,7 +23049,7 @@ export const data = [
         ASD_BA17_FDR: 0.348,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000006377",
@@ -23185,7 +23185,7 @@ export const data = [
         ASD_BA17_FDR: 0.0233,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000132507",
@@ -23423,7 +23423,7 @@ export const data = [
         ASD_BA17_FDR: 0.819,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147130",
@@ -23457,7 +23457,7 @@ export const data = [
         ASD_BA17_FDR: 0.968,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112902",
@@ -23627,7 +23627,7 @@ export const data = [
         ASD_BA17_FDR: 0.448,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000198963",
@@ -23661,7 +23661,7 @@ export const data = [
         ASD_BA17_FDR: 0.00719,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000111249",
@@ -23695,7 +23695,7 @@ export const data = [
         ASD_BA17_FDR: 0.0813,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000131653",
@@ -23729,7 +23729,7 @@ export const data = [
         ASD_BA17_FDR: 0.306,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196363",
@@ -23763,7 +23763,7 @@ export const data = [
         ASD_BA17_FDR: 0.703,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000153234",
@@ -23831,7 +23831,7 @@ export const data = [
         ASD_BA17_FDR: 0.253,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165186",
@@ -24171,7 +24171,7 @@ export const data = [
         ASD_BA17_FDR: 0.366,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130731",
@@ -24409,7 +24409,7 @@ export const data = [
         ASD_BA17_FDR: 0.392,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000179399",
@@ -24511,7 +24511,7 @@ export const data = [
         ASD_BA17_FDR: 0.921,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000184903",
@@ -24715,7 +24715,7 @@ export const data = [
         ASD_BA17_FDR: 0.659,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000179388",
@@ -24851,7 +24851,7 @@ export const data = [
         ASD_BA17_FDR: 0.954,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000151790",
@@ -25259,7 +25259,7 @@ export const data = [
         ASD_BA17_FDR: 0.716,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000007314",
@@ -25327,7 +25327,7 @@ export const data = [
         ASD_BA17_FDR: 0.614,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000132964",
@@ -25361,7 +25361,7 @@ export const data = [
         ASD_BA17_FDR: 0.841,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000134115",
@@ -25429,7 +25429,7 @@ export const data = [
         ASD_BA17_FDR: 0.657,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000125388",
@@ -25667,7 +25667,7 @@ export const data = [
         ASD_BA17_FDR: 0.649,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196358",
@@ -25701,7 +25701,7 @@ export const data = [
         ASD_BA17_FDR: 0.754,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000148737",
@@ -25803,7 +25803,7 @@ export const data = [
         ASD_BA17_FDR: 0.525,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000171862",
@@ -25837,7 +25837,7 @@ export const data = [
         ASD_BA17_FDR: 0.507,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000005421",
@@ -25939,7 +25939,7 @@ export const data = [
         ASD_BA17_FDR: 0.927,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165288",
@@ -25973,7 +25973,7 @@ export const data = [
         ASD_BA17_FDR: 0.0633,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000005882",
@@ -26109,7 +26109,7 @@ export const data = [
         ASD_BA17_FDR: 0.332,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000068024",
@@ -26143,7 +26143,7 @@ export const data = [
         ASD_BA17_FDR: 0.072,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000169375",
@@ -26177,7 +26177,7 @@ export const data = [
         ASD_BA17_FDR: 0.399,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000151689",
@@ -26245,7 +26245,7 @@ export const data = [
         ASD_BA17_FDR: 0.242,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000115677",
@@ -26449,7 +26449,7 @@ export const data = [
         ASD_BA17_FDR: 0.599,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000070444",
@@ -26619,7 +26619,7 @@ export const data = [
         ASD_BA17_FDR: 0.717,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000004468",
@@ -26755,7 +26755,7 @@ export const data = [
         ASD_BA17_FDR: 0.195,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000132024",
@@ -26857,7 +26857,7 @@ export const data = [
         ASD_BA17_FDR: 0.471,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000171180",
@@ -27095,7 +27095,7 @@ export const data = [
         ASD_BA17_FDR: 0.222,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000099954",
@@ -27231,7 +27231,7 @@ export const data = [
         ASD_BA17_FDR: 0.929,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112294",
@@ -27265,7 +27265,7 @@ export const data = [
         ASD_BA17_FDR: 0.64,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000115844",
@@ -27333,7 +27333,7 @@ export const data = [
         ASD_BA17_FDR: 0.659,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000184845",
@@ -27503,7 +27503,7 @@ export const data = [
         ASD_BA17_FDR: 0.856,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000065534",
@@ -27605,7 +27605,7 @@ export const data = [
         ASD_BA17_FDR: 0.515,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000134326",
@@ -27707,7 +27707,7 @@ export const data = [
         ASD_BA17_FDR: 0.373,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000179981",
@@ -27979,7 +27979,7 @@ export const data = [
         ASD_BA17_FDR: 0.987,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000120071",
@@ -28013,7 +28013,7 @@ export const data = [
         ASD_BA17_FDR: 0.137,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000143322",
@@ -28251,7 +28251,7 @@ export const data = [
         ASD_BA17_FDR: 0.909,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000164796",
@@ -28387,7 +28387,7 @@ export const data = [
         ASD_BA17_FDR: 0.964,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000126464",
@@ -28421,7 +28421,7 @@ export const data = [
         ASD_BA17_FDR: 0.804,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000004848",
@@ -28455,7 +28455,7 @@ export const data = [
         ASD_BA17_FDR: 0.944,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000150275",
@@ -28693,7 +28693,7 @@ export const data = [
         ASD_BA17_FDR: 0.896,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000095787",
@@ -28727,7 +28727,7 @@ export const data = [
         ASD_BA17_FDR: 0.973,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130699",
@@ -28761,7 +28761,7 @@ export const data = [
         ASD_BA17_FDR: 0.803,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112232",
@@ -28897,7 +28897,7 @@ export const data = [
         ASD_BA17_FDR: 0.996,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112357",
@@ -28965,7 +28965,7 @@ export const data = [
         ASD_BA17_FDR: 0.714,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000071655",
@@ -29033,7 +29033,7 @@ export const data = [
         ASD_BA17_FDR: 0.925,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000124126",
@@ -29101,7 +29101,7 @@ export const data = [
         ASD_BA17_FDR: 0.913,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000101040",
@@ -29135,7 +29135,7 @@ export const data = [
         ASD_BA17_FDR: 0.999,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000125107",
@@ -29169,7 +29169,7 @@ export const data = [
         ASD_BA17_FDR: 0.441,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000183230",
@@ -29373,7 +29373,7 @@ export const data = [
         ASD_BA17_FDR: 0.77,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000142599",
@@ -29407,7 +29407,7 @@ export const data = [
         ASD_BA17_FDR: 0.809,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000125944",
@@ -29441,7 +29441,7 @@ export const data = [
         ASD_BA17_FDR: 0.815,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000146904",
@@ -29645,7 +29645,7 @@ export const data = [
         ASD_BA17_FDR: 0.418,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147432",
@@ -29985,7 +29985,7 @@ export const data = [
         ASD_BA17_FDR: 0.523,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000153815",
@@ -30189,7 +30189,7 @@ export const data = [
         ASD_BA17_FDR: 0.813,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000143641",
@@ -30223,7 +30223,7 @@ export const data = [
         ASD_BA17_FDR: 0.311,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000140009",
@@ -30325,7 +30325,7 @@ export const data = [
         ASD_BA17_FDR: 0.837,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000156564",
@@ -30597,7 +30597,7 @@ export const data = [
         ASD_BA17_FDR: 0.92,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000076003",
@@ -30733,7 +30733,7 @@ export const data = [
         ASD_BA17_FDR: 0.473,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165671",
@@ -30767,7 +30767,7 @@ export const data = [
         ASD_BA17_FDR: 0.863,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000167522",
@@ -30801,7 +30801,7 @@ export const data = [
         ASD_BA17_FDR: 0.996,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000141503",
@@ -30971,7 +30971,7 @@ export const data = [
         ASD_BA17_FDR: 0.956,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196391",
@@ -31209,7 +31209,7 @@ export const data = [
         ASD_BA17_FDR: 0.556,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000088038",
@@ -31243,7 +31243,7 @@ export const data = [
         ASD_BA17_FDR: 0.985,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000041515",
@@ -31413,7 +31413,7 @@ export const data = [
         ASD_BA17_FDR: 0.211,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000204764",
@@ -31617,7 +31617,7 @@ export const data = [
         ASD_BA17_FDR: 0.809,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000144036",
@@ -31889,7 +31889,7 @@ export const data = [
         ASD_BA17_FDR: 0.466,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000254986",
@@ -32093,7 +32093,7 @@ export const data = [
         ASD_BA17_FDR: 0.808,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000005483",
@@ -32127,7 +32127,7 @@ export const data = [
         ASD_BA17_FDR: 0.255,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130449",
@@ -32161,7 +32161,7 @@ export const data = [
         ASD_BA17_FDR: 0.255,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000114867",
@@ -32365,7 +32365,7 @@ export const data = [
         ASD_BA17_FDR: 0.877,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000129911",
@@ -32501,7 +32501,7 @@ export const data = [
         ASD_BA17_FDR: 0.0858,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000100033",
@@ -32535,7 +32535,7 @@ export const data = [
         ASD_BA17_FDR: 0.26,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000113100",
@@ -32739,7 +32739,7 @@ export const data = [
         ASD_BA17_FDR: 0.263,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000162670",
@@ -32807,7 +32807,7 @@ export const data = [
         ASD_BA17_FDR: 0.318,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000164778",
@@ -33147,7 +33147,7 @@ export const data = [
         ASD_BA17_FDR: 0.361,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000115524",
@@ -33215,7 +33215,7 @@ export const data = [
         ASD_BA17_FDR: 0.118,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000159459",
@@ -33691,7 +33691,7 @@ export const data = [
         ASD_BA17_FDR: 0.0783,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000188994",
@@ -33725,7 +33725,7 @@ export const data = [
         ASD_BA17_FDR: 0.472,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000101958",
@@ -33793,7 +33793,7 @@ export const data = [
         ASD_BA17_FDR: 0.318,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000204120",
@@ -33895,7 +33895,7 @@ export const data = [
         ASD_BA17_FDR: 0.0252,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000135316",
@@ -34133,7 +34133,7 @@ export const data = [
         ASD_BA17_FDR: 0.865,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000239900",
@@ -34167,7 +34167,7 @@ export const data = [
         ASD_BA17_FDR: 0.474,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000164050",
@@ -34337,7 +34337,7 @@ export const data = [
         ASD_BA17_FDR: 0.325,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112282",
@@ -34609,7 +34609,7 @@ export const data = [
         ASD_BA17_FDR: 0.965,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000064195",
@@ -34778,7 +34778,7 @@ export const data = [
         ASD_BA17_FDR: 0.959,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000127663",
@@ -34846,7 +34846,7 @@ export const data = [
         ASD_BA17_FDR: 0.911,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000165194",
@@ -34880,7 +34880,7 @@ export const data = [
         ASD_BA17_FDR: 0.248,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000134532",
@@ -34914,7 +34914,7 @@ export const data = [
         ASD_BA17_FDR: 0.0287,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196628",
@@ -34948,7 +34948,7 @@ export const data = [
         ASD_BA17_FDR: 0.818,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000100393",
@@ -34982,7 +34982,7 @@ export const data = [
         ASD_BA17_FDR: 0.398,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000150760",
@@ -35220,7 +35220,7 @@ export const data = [
         ASD_BA17_FDR: 0.504,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000149599",
@@ -35492,7 +35492,7 @@ export const data = [
         ASD_BA17_FDR: 0.641,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000196632",
@@ -35662,7 +35662,7 @@ export const data = [
         ASD_BA17_FDR: 0.723,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000131018",
@@ -35832,7 +35832,7 @@ export const data = [
         ASD_BA17_FDR: 0.293,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000078687",
@@ -35900,7 +35900,7 @@ export const data = [
         ASD_BA17_FDR: 0.154,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000149532",
@@ -36070,7 +36070,7 @@ export const data = [
         ASD_BA17_FDR: 0.664,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000147316",
@@ -36240,7 +36240,7 @@ export const data = [
         ASD_BA17_FDR: 0.352,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000112655",
@@ -36376,7 +36376,7 @@ export const data = [
         ASD_BA17_FDR: 0.626,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000109118",
@@ -36546,7 +36546,7 @@ export const data = [
         ASD_BA17_FDR: 0.74,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000120458",
@@ -36614,7 +36614,7 @@ export const data = [
         ASD_BA17_FDR: 0.643,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000177272",
@@ -36682,7 +36682,7 @@ export const data = [
         ASD_BA17_FDR: 0.568,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000038382",
@@ -36750,7 +36750,7 @@ export const data = [
         ASD_BA17_FDR: 0.0901,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000170558",
@@ -36784,7 +36784,7 @@ export const data = [
         ASD_BA17_FDR: 0.796,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000163636",
@@ -36850,9 +36850,9 @@ export const data = [
         ASD_BA39_40_FDR: 0.957,
         ASD_BA17_Log2FC: 0.0409,
         ASD_BA17_FDR: 0.745,
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Suggestive Evidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000084676",
@@ -37192,7 +37192,7 @@ export const data = [
         ASD_BA17_FDR: 0.574,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000187546",
@@ -37260,7 +37260,7 @@ export const data = [
         ASD_BA17_FDR: 0.395,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000140488",
@@ -37464,7 +37464,7 @@ export const data = [
         ASD_BA17_FDR: 0.0111,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000111077",
@@ -37600,7 +37600,7 @@ export const data = [
         ASD_BA17_FDR: 0.488,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000187605",
@@ -37634,7 +37634,7 @@ export const data = [
         ASD_BA17_FDR: 0.636,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000071054",
@@ -37702,7 +37702,7 @@ export const data = [
         ASD_BA17_FDR: 0.426,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000132466",
@@ -37736,7 +37736,7 @@ export const data = [
         ASD_BA17_FDR: 0.545,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Strong Candidate",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000166736",
@@ -37838,7 +37838,7 @@ export const data = [
         ASD_BA17_FDR: 0.325,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000163872",
@@ -37906,7 +37906,7 @@ export const data = [
         ASD_BA17_FDR: 0.726,
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000130749",
@@ -38008,7 +38008,7 @@ export const data = [
         ASD_BA17_FDR: "NA",
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Functional",
         SFARI_Gene_score: "High Confidence",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000233067",
@@ -38346,7 +38346,7 @@ export const data = [
         ASD_BA39_40_FDR: "NA",
         ASD_BA17_Log2FC: "NA",
         ASD_BA17_FDR: "NA",
-        Genetic_Category: Syndromic,
+        Genetic_Category: "Syndromic",
         SFARI_Gene_score: "Strong Candidate",
         Syndromic: "NA"
     },
@@ -39436,7 +39436,7 @@ export const data = [
         ASD_BA17_FDR: "NA",
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000105991",
@@ -39470,7 +39470,7 @@ export const data = [
         ASD_BA17_FDR: "NA",
         Genetic_Category: "Rare Single Gene Mutation, Syndromic, Genetic Association",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     },
     {
         ENSEMBL_ID: "ENSG00000168955",
@@ -39504,6 +39504,6 @@ export const data = [
         ASD_BA17_FDR: "NA",
         Genetic_Category: "Rare Single Gene Mutation, Syndromic",
         SFARI_Gene_score: "Uncategorized",
-        Syndromic: Syndromic
+        Syndromic: "Syndromic"
     }
 ];
