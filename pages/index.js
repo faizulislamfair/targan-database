@@ -87,6 +87,73 @@ export default function Home() {
 
           filteredData.map((item, index) => (
             <div key={item?.id} className='text-black m-5 p-5 rounded-md'>
+
+
+              <div className="border-4 border-[#E1AEAC] flex flex-col p-5 mb-10">
+                <u><b>ASD Risk Gene</b></u>
+
+                {
+                  item?.Gene_Symbol &&
+                  <div className='flex flex-row'>
+                    <b>Gene Symbol</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Gene_Symbol} </p>
+                  </div>
+                }
+                {
+                  item?.ENSEMBL_ID &&
+                  <div className='flex flex-row'>
+                    <b>ENSEMBL ID</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.ENSEMBL_ID} </p>
+
+                  </div>
+                }
+                {
+                  item?.Gene_Name &&
+                  <div className='flex flex-row'>
+                    <b>Gene Name</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Gene_Name} </p>
+
+                  </div>
+                }
+                {
+                  item?.Chromosome_name &&
+                  <div className='flex flex-row'>
+                    <b>Chromosome</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Chromosome_name} </p>
+
+                  </div>
+                }
+                {
+                  item?.Genetic_Category &&
+                  <div className='flex flex-row'>
+                    <b>Genetic Category</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Genetic_Category} </p>
+
+                  </div>
+                }
+                {
+                  item?.SFARI_Gene_score &&
+                  <div className='flex flex-row'>
+                    <b>SFARI Gene-Score</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.SFARI_Gene_score} </p>
+                  </div>
+                }
+                {
+                  item?.Syndromic &&
+                  <div className='flex flex-row'>
+                    <b>Syndromic</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Syndromic} </p>
+
+                  </div>
+                }
+                {
+                  item?.Gene_Biotype &&
+                  <div className='flex flex-row'>
+                    <b>Gene Biotype</b>: <p className="font-semibold text-[#FA0304]"> &nbsp; {item?.Gene_Biotype} </p>
+
+                  </div>
+                }
+
+                <div className='flex flex-row'>
+                  <b>Reference</b>: <p className="font-semibold"> &nbsp; SFARI Gene Database (https://gene.sfari.org/database/human-gene/) </p>
+                </div>
+
+
+              </div>
+
               <div>
 
                 <div className="text-[#1C47F2] font-bold pb-3">
@@ -143,7 +210,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -207,7 +274,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -271,7 +338,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -333,7 +400,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -395,7 +462,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -457,7 +524,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -519,7 +586,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -582,7 +649,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -645,7 +712,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -708,7 +775,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
@@ -775,7 +842,7 @@ export default function Home() {
                       17
                     </td>
                     <td className='p-5 border border-gray-600'>
-                    <Link href='/' target='_blank'>
+                      <Link href='/' target='_blank'>
                         Click here
                       </Link>
                     </td>
