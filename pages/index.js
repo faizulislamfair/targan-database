@@ -121,7 +121,7 @@ export default function Home() {
             <div key={index + 1} className='text-black m-5 p-5 rounded-md'>
 
 
-              <div className="border-4 border-[#E1AEAC] flex flex-col p-5 mb-10">
+              <div className="border-4 border-[#E1AEAC] flex flex-col p-5 mb-10 w-[60%]">
                 <u><b>ASD Risk Gene</b></u>
 
                 {
@@ -183,8 +183,8 @@ export default function Home() {
                   <b>Reference</b>: <p className="font-semibold"> &nbsp; SFARI Gene Database <Link href="https://gene.sfari.org/database/human-gene/" target='_blank'>(https://gene.sfari.org/database/human-gene/) </Link> </p>
                 </div>
 
-
               </div>
+
 
               <div>
 
