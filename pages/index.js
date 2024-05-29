@@ -77,8 +77,41 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+
+
+
+
+          <div className="flex flex-col mt-5">
+            <div className="font-semibold ml-14">
+              Example 1:
+            </div>
+            <div className="flex flex-row">
+              <div className="font-semibold ">
+                Search &nbsp;
+              </div>
+              <div className="flex flex-col bg-[#E6E0EC] text-[#FA0304] font-medium border-2 border-gray-600 pl-3 pr-12">
+                FMR1
+              </div>
+            </div>
+
+            <div className="mt-5">
+              <Image
+                className="border-2 border-gray-600 ml-14"
+                src="/search.png"
+                alt="Search Icon"
+                onClick={handleSearch}
+                width={60}
+                height={60}
+              />
+            </div>
+          </div>
+
+
+
         </div>
       </div>
+
 
       <div className='grid grid-cols-1 grid-flow-row gap-4 place-content-center mt-10 pt-10'>
         {searchPressed && filteredData.length > 0 && (
