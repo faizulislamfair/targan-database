@@ -33,26 +33,28 @@ export default function Home() {
   return (
     <div className="grid place-content-center">
       <div className="grid place-content-center mt-20 pt-5">
-        <div className="flex flex-col">
+
+        <div className="flex flex-col text-xl">
           <div className="flex flex-row ml-3">
-            <div className="font-semibold">
+            <div className="font-semibold place-content-center">
               Page &nbsp;
             </div>
-            <div className="flex flex-col bg-[#E6E0EC] font-medium border-2 border-gray-600 pl-3 pr-12">
+            <div className="flex flex-col bg-[#E6E0EC] font-medium border-2 border-gray-600 pl-3 pr-12 py-2 w-[600px]">
               Expression Atlas of ASD Risk Genes in Idiopathic ASD
             </div>
           </div>
-          <div className="flex flex-row mt-5">
+
+          <div className="flex flex-row mt-5 place-content-center">
             <div className="font-semibold">
               Search &nbsp;
             </div>
             <div className="flex flex-col">
               <input
                 className="
-                w-[450px] 
-                h-8 
+                w-[600px] 
                 bg-[#E6E0EC] 
                 placeholder:text-[#FA0304] 
+                py-2
                 pl-3 
                 font-medium 
                 border-2 border-gray-600 
@@ -82,22 +84,22 @@ export default function Home() {
 
 
 
-          <div className="flex flex-col mt-5">
-            <div className="font-semibold ml-14">
+          <div className="flex flex-col mt-7 place-content-center">
+            <div className="font-semibold ml-[70px]">
               Example 1:
             </div>
-            <div className="flex flex-row">
-              <div className="font-semibold ">
+            <div className="flex flex-row mt-2">
+              <div className="font-semibold">
                 Search &nbsp;
               </div>
-              <div className="flex flex-col bg-[#E6E0EC] text-[#FA0304] font-medium border-2 border-gray-600 pl-3 pr-12">
+              <div className="flex flex-col bg-[#E6E0EC] text-[#FA0304] font-medium border-2 border-gray-600 pl-3 pr-12 py-2 w-[600px]">
                 FMR1
               </div>
             </div>
 
             <div className="mt-5">
               <Image
-                className="border-2 border-gray-600 ml-14"
+                className="border-2 border-gray-600 ml-[73px]"
                 src="/search.png"
                 alt="Search Icon"
                 onClick={handleSearch}
@@ -110,6 +112,7 @@ export default function Home() {
 
 
         </div>
+
       </div>
 
 
