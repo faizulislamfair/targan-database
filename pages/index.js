@@ -2,6 +2,7 @@ import Image from "next/image";
 import { data } from '@/public/data';
 import { useState } from "react";
 import Link from "next/link";
+import Head from 'next/head';
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -32,6 +33,11 @@ export default function Home() {
 
   return (
     <div className="grid place-content-center">
+
+      <Head>
+        <title>TARGAN Database</title>
+      </Head>
+
       <div className="grid place-content-center mt-20 pt-5">
 
         <div className="flex flex-col text-xl">
