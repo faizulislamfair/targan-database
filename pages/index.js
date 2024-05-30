@@ -39,8 +39,9 @@ export default function Home() {
             <div className="font-semibold place-content-center">
               Page
             </div>
-            <div className="flex flex-col bg-[#E6E0EC] font-medium border-2 border-gray-600 ml-3 pl-3 pr-12 py-2 w-[600px]">
-              Expression Atlas of ASD Risk Genes in Idiopathic ASD
+            <div className="flex flex-col bg-[#E6E0EC] font-bold text-[#1C47F2] text-center border-2 border-gray-600 ml-3 pl-3 pr-12 py-2 w-[750px]">
+              TARGAN Database <br />
+              (Transcriptomic Atlas of ASD Risk Genes in Non-syndromic Autism)
             </div>
           </div>
 
@@ -53,14 +54,14 @@ export default function Home() {
                 className="
                 w-[600px] 
                 bg-[#E6E0EC] 
-                placeholder:text-[#FA0304] 
+                placeholder:text-[#1C47F2] 
                 ml-[9px]
                 py-2
                 pl-3 
                 font-medium 
                 border-2 border-gray-600 
                 focus:placeholder:text-transparent
-                text-[#FA0304]
+                text-[#1C47F2]
                 "
                 type="text"
                 placeholder="ENSEMBL ID or Gene Symbol"
