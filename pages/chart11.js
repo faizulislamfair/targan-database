@@ -5,7 +5,7 @@ const chart11 = () => {
         <div className='p-5'>
 
             <div className='text-[#1C47F2] font-bold text-[20px]'>
-                Chart 2. Experiment Summary
+                Chart 11. Experiment Summary
             </div>
 
             <div className="bg-[#F2DCDB] p-3 border-2 border-black mt-3">
