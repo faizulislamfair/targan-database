@@ -41,7 +41,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col bg-[#E6E0EC] font-bold text-[#1C47F2] text-center border-2 border-gray-600 ml-3 pl-3 pr-12 py-2 w-[750px]">
               TARGAN Database <br />
-              (<u>T</u>ranscriptomic <u>A</u>tlas of <u>A</u>SD <u>R</u>isk <u>G</u>enes in <u>N</u>on-syndromic <u>A</u>utism)
+              <span>(<u>T</u>ranscriptomic <u>A</u>tlas of <u>A</u>SD <u>R</u>isk <u>G</u>enes in <u>N</u>on-syndromic <u>A</u>utism)</span>
             </div>
           </div>
 
