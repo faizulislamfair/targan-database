@@ -20,11 +20,11 @@ const chart10 = () => {
                 Brodmann Area 7 (Parietal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 7 (Idiopathic ASD): 35 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 7 (Control): 29 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 7 (Control): 29 <br />
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Idiopathic ASD Cortex : Brodmann Area 7 of Parietal Lobe <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Neurotypical Control : Brodmann Area 7 of Parietal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Neurotypical Control : Brodmann Area 7 of Parietal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

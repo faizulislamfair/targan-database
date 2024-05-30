@@ -20,12 +20,12 @@ const chart6 = () => {
                 Brodmann Area 9 (Frontal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 38 (Idiopathic ASD): 26 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 38 (Control): 17 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 38 (Control): 17 <br />
 
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex : Brodmann Area 38 of Temporal Lobe <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Brodmann Area 38 of Temporal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Control Cortex: Brodmann Area 38 of Temporal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

@@ -20,12 +20,12 @@ const chart3 = () => {
                 Brodmann Area 44/45 (Frontal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 44/45 (Idiopathic ASD): 27 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 44/45 (Control): 19 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 44/45 (Control): 19 <br />
 
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex: Brodmann Area 44/45 of Frontal Lobe <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Brodmann Area 44/45 of Frontal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Control Cortex: Brodmann Area 44/45 of Frontal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

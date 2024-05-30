@@ -20,11 +20,11 @@ const chart11 = () => {
                 Brodmann Area 39/40 (Parietal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 39/40 (Idiopathic ASD): 31 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 39/40 o(Control): 32 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 39/40 o(Control): 32 <br />
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex: Brodmann Area 39/40 of Parietal Lobe <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Brodmann Area 39/40 of Parietal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Control Cortex: Brodmann Area 39/40 of Parietal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

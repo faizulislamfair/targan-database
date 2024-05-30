@@ -20,11 +20,11 @@ const chart1 = () => {
                 Whole Cortex <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Idiopathic ASD Individuals (Cortex): 49 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Neurotypical Controls (Cortex): 54 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Neurotypical Controls (Cortex): 54 <br />
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex: Frontal, Temporal, Parietal and Occipital Lobes <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Frontal, Temporal, Parietal and Occipital Lobes <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Control Cortex: Frontal, Temporal, Parietal and Occipital Lobes <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />

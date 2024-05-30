@@ -20,12 +20,12 @@ const chart9 = () => {
                 Brodmann Area 3/1/2/5 (Parietal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 3/1/2/5 (Idiopathic ASD): 30 <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 3/1/2/5 (Control): 23 <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 3/1/2/5 (Control): 23 <br />
 
 
                 <b>Sample Characteristics: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; ASD Cortex: Brodmann Area 3/1/2/5 of Parietal Lobe <br />
-                ii. &nbsp; &nbsp; &nbsp; &nbsp; Control Cortex: Brodmann Area 3/1/2/5 of Parietal Lobe <br />
+                ii. &nbsp; &nbsp; &nbsp; &nbsp;Control Cortex: Brodmann Area 3/1/2/5 of Parietal Lobe <br />
 
                 <b>Data Type: </b> <br />
                 RNA-seq <br />
