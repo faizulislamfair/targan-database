@@ -1,3 +1,3 @@
-## Created the project for this file:
+## Created the project for this file: [UI File](UI_file.pdf)
 
-## Project for only desktop mode
+## Created for only desktop/laptop mode
