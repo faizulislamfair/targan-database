@@ -197,7 +197,7 @@ export default function Home() {
                 </div>
 
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -215,10 +215,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -282,7 +282,7 @@ export default function Home() {
                 </div>
 
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -300,10 +300,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -363,7 +363,7 @@ export default function Home() {
                 </div>
 
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -380,10 +380,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -437,7 +437,7 @@ export default function Home() {
                   Chart 4. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)24
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -454,10 +454,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -511,7 +511,7 @@ export default function Home() {
                   Chart 5. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)4/6
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -528,10 +528,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -585,7 +585,7 @@ export default function Home() {
                   Chart 6. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)38
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -602,10 +602,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -659,7 +659,7 @@ export default function Home() {
                   Chart 7. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)20/37
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -676,10 +676,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -734,7 +734,7 @@ export default function Home() {
                   Chart 8. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)41/42/22
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -751,10 +751,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -809,7 +809,7 @@ export default function Home() {
                   Chart 9. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)3/1/2/5
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -826,10 +826,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -884,7 +884,7 @@ export default function Home() {
                   Chart 10. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)7
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -901,10 +901,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -959,7 +959,7 @@ export default function Home() {
                   Chart 11. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)39/40
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -976,10 +976,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
@@ -1038,7 +1038,7 @@ export default function Home() {
                   Chart 12. Expression Signatures of ASD Risk Gene in Brodmann Area (BA)17
                 </div>
                 <table className='bg-[#FAE5D3] p-10 text-center border-2 border-gray-600 rounded-md mb-10'>
-                  <tr className='p-5'>
+                  <tr className='p-5 text-[#1C47F2]'>
                     <th className='p-5 border-2 border-gray-600'>ASD Risk Gene</th>
                     <th className='p-5 border-2 border-gray-600'>SFARI Gene Score</th>
                     <th className='p-5 border-2 border-gray-600'>Log<sub>2</sub>FC</th>
@@ -1055,10 +1055,10 @@ export default function Home() {
                       </div>
                       <div class="flex-1 flex">
                         <div class="w-1/2 border-r border-gray-600 p-5 flex items-center justify-center">
-                          <b>ASD</b>
+                          ASD
                         </div>
                         <div class="w-1/2 border-l border-gray-600 p-5 flex items-center justify-center">
-                          <b>Control</b>
+                          Control
                         </div>
                       </div>
                     </div>
