@@ -4,14 +4,14 @@ const chart4 = () => {
     return (
         <div className='p-5'>
 
-            <div className='text-[#1C47F2] font-bold text-[20px]'>
+            <div className='font-bold text-[20px]'>
                 Chart 4. Experiment Summary
             </div>
 
-            <div className="bg-[#F2DCDB] p-3 border-2 border-black mt-3">
+            <div className="p-3 border-2 border-black mt-3">
                 <u><b>Experiment Details</b></u> <br />
                 <b>Clinical Manifestation:</b> <br />
-                IdiopathicASD and Neurotypical Control <br />
+                Idiopathic ASD and Neurotypical Control <br />
                 <b>Comparison Group:</b> <br />
                 Idiopathic ASD Individuals vs Neurotypical Controls <br />
                 <b>Organ: </b> <br />

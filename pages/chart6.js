@@ -4,20 +4,20 @@ const chart6 = () => {
     return (
         <div className='p-5'>
 
-            <div className='text-[#1C47F2] font-bold text-[20px]'>
+            <div className='font-bold text-[20px]'>
                 Chart 6. Experiment Summary
             </div>
 
-            <div className="bg-[#F2DCDB] p-3 border-2 border-black mt-3">
+            <div className="p-3 border-2 border-black mt-3">
                 <u><b>Experiment Details</b></u> <br />
                 <b>Clinical Manifestation:</b> <br />
-                IdiopathicASD and Neurotypical Control <br />
+                Idiopathic ASD and Neurotypical Control <br />
                 <b>Comparison Group:</b> <br />
                 Idiopathic ASD Individuals vs Neurotypical Controls <br />
                 <b>Organ: </b> <br />
                 Postmortem Cerebral Cortex <br />
                 <b>Comparing Cortical Region: </b> <br />
-                Brodmann Area 9 (Frontal Lobe) <br />
+                Brodmann Area 38 (Temporal Lobe) <br />
                 <b>Number of Subjects/Samples: </b> <br />
                 i. &nbsp; &nbsp; &nbsp; &nbsp; Brodmann Area 38 (Idiopathic ASD): 26 <br />
                 ii. &nbsp; &nbsp; &nbsp; &nbsp;Brodmann Area 38 (Control): 17 <br />
